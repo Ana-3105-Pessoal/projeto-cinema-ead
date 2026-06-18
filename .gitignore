@@ -1,0 +1,8 @@
+tmdb.env
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+title.basics.tsv.gz
+title.ratings.tsv.gz
+movies_metadata.csv
