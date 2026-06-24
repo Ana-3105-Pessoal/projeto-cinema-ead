@@ -23,6 +23,8 @@ Investigar padrões de sucesso na indústria cinematográfica a partir de dados 
 | [Kaggle — The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?resource=download&select=movies_metadata.csv) | Dataset `movies_metadata.csv` com informações financeiras e de produção |
 | [TMDB API](https://www.themoviedb.org/) | Dados complementares: franquias, estúdios, idioma original e países de produção |
 
+Os datasets de IMDb Dataset pegos foram: 'title.basics.tsv.gz' e 'title.rating.tsv.gz'
+
 ---
 
 ## ⚙️ Pipeline
