@@ -1,6 +1,6 @@
 # 🎬 Análise da Indústria Cinematográfica
 
-> **Status:** Pipeline, EDA e visualizações concluídos — dashboard em desenvolvimento
+> **Status:** Projeto concluído — pipeline, EDA, visualizações e dashboard finalizados
 
 Pipeline completo de dados sobre a indústria do cinema, desde a extração de múltiplas fontes até a análise exploratória e visualização em dashboard.
 
@@ -90,6 +90,7 @@ IMDb (title.basics + title.ratings)
 ProjetoFinal_EAD/
 │
 ├── projeto_final.ipynb     # Notebook principal com todo o pipeline
+├── fontes_dados/           # Datasets brutos (IMDb, Kaggle) — ignorada no .gitignore
 ├── tmdbAPI_dados.csv       # Cache da extração via TMDB API
 ├── df_final_limpo.csv      # Dataset final tratado e transformado
 ├── tmdb.env                # Chave da API (não versionado)
@@ -97,7 +98,7 @@ ProjetoFinal_EAD/
 └── README.md
 ```
 
-> Os datasets brutos (IMDb e Kaggle) não estão incluídos por serem grandes demais. Baixe pelos links acima e coloque na mesma pasta antes de rodar o notebook.
+> Os datasets brutos (IMDb e Kaggle) não estão incluídos por serem grandes demais. Baixe pelos links acima e coloque na pasta `fontes_dados/` antes de rodar o notebook.
 
 ---
 
@@ -122,4 +123,11 @@ Gere sua chave gratuita em [themoviedb.org](https://www.themoviedb.org/).
 - Requests + python-dotenv
 - Matplotlib + Seaborn
 - Jupyter Notebook
-- Power BI / Looker Studio *(dashboard em desenvolvimento)*
+- Looker Studio
+
+---
+
+## 📚 Disciplina
+
+**Extração e Análise de Dados** — 3º Semestre
+Centro Universitário SENAC (UNISENAC) — 2026
