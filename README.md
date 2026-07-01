@@ -1,4 +1,4 @@
-# 🎬 Análise da Indústria Cinematográfica
+# Análise da Indústria Cinematográfica
 
 > **Status:** Projeto concluído — pipeline, EDA, visualizações e dashboard finalizados
 
@@ -6,7 +6,7 @@ Pipeline completo de dados sobre a indústria do cinema, desde a extração de m
 
 ---
 
-## 📌 Objetivo
+## Objetivo
 
 Investigar padrões de sucesso na indústria cinematográfica a partir de dados reais, respondendo perguntas como:
 - Quais filmes tiveram os maiores lucros absolutos e maior retorno sobre investimento (ROI)?
@@ -20,7 +20,7 @@ Investigar padrões de sucesso na indústria cinematográfica a partir de dados 
 
 ---
 
-## 🗂️ Fontes de Dados
+## Fontes de Dados
 
 | Fonte | Descrição |
 |-------|-----------|
@@ -30,7 +30,7 @@ Investigar padrões de sucesso na indústria cinematográfica a partir de dados 
 
 ---
 
-## ⚙️ Pipeline
+## Pipeline
 
 ```
 IMDb (title.basics + title.ratings)
@@ -59,7 +59,7 @@ IMDb (title.basics + title.ratings)
 
 ---
 
-## 🔍 Colunas Criadas na Transformação
+## Colunas Criadas na Transformação
 
 | Coluna | Origem | Descrição |
 |--------|--------|-----------|
@@ -74,7 +74,7 @@ IMDb (title.basics + title.ratings)
 
 ---
 
-## 📊 Principais Insights
+## Principais Insights
 
 - **Lucro vs ROI:** os filmes com maior lucro absoluto (Avatar, Avengers) são diferentes dos com maior ROI — filmes de baixo orçamento como Paranormal Activity dominam o retorno proporcional
 - **Franquias:** franquias lideram o topo do lucro absoluto; Avatar Collection tem média de 2,5 bilhões por filme
@@ -84,7 +84,7 @@ IMDb (title.basics + title.ratings)
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 ProjetoFinal_EAD/
@@ -102,7 +102,7 @@ ProjetoFinal_EAD/
 
 ---
 
-## 🔑 Configuração da API
+## Configuração da API
 
 Para rodar a extração via TMDB, crie um arquivo `tmdb.env` na raiz do projeto:
 
@@ -116,7 +116,7 @@ Gere sua chave gratuita em [themoviedb.org](https://www.themoviedb.org/).
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - Python 3
 - Pandas
@@ -127,7 +127,11 @@ Gere sua chave gratuita em [themoviedb.org](https://www.themoviedb.org/).
 
 ---
 
-## 📚 Disciplina
+## Disciplina
 
 **Extração e Análise de Dados** — 3º Semestre
 Centro Universitário SENAC (UNISENAC) — 2026
+
+## Licença
+
+Este projeto está sob a licença MIT — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
