@@ -124,6 +124,7 @@ Gere sua chave gratuita em [themoviedb.org](https://www.themoviedb.org/).
 - Matplotlib + Seaborn
 - Jupyter Notebook
 - Looker Studio
+- Overleaf / LaTeX (relatorio tecnico)
 
 ---
 
